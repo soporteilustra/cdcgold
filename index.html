@@ -74,6 +74,9 @@
               <li class="nav-item menu-show" data-target="#blog">
                 <a class="nav-link" href="#">Blog</a>
               </li>
+              <li class="nav-item" data-toggle="modal" data-target="#automodal">
+                <a class="nav-link" href="#">video</a>
+              </li>
               <li class="nav-item menu-show" data-target="#contacto">
                 <a class="nav-link" href="#">Contacto</a>
               </li>
@@ -103,6 +106,22 @@
     </nav>
   </header>
 
+  <section id="slides">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="slide-fadding">
+            <img class=" slide-item img-fluid" src="media/325.jpg" alt="First slide">
+            <img class=" slide-item img-fluid" src="media/45.jpg" alt="Second slide">
+            <img class=" slide-item img-fluid" src="media/172.jpg" alt="Third slide">
+            <img class=" slide-item img-fluid" src="media/225.jpg" alt="Third slide">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- older slides
   <section class="carousel-main hidden-md-down container">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -199,6 +218,7 @@
       </a>
     </div>
   </section>
+  End older slides-->
 
   <!-- Bloque información -->
   <section class="block-info">
@@ -206,7 +226,7 @@
     <!--start-->
     <div id="start" class="container content">
       <div class="row">
-        <div class="col-12 col-md-8 col-lg-6 detail">
+        <div class="col-12 col-md-12 col-lg-6 detail">
           <blockquote class="blockquote blockquote-reverse">
             <i class="fa fa-quote-left fa-3x fa-pull-left"></i>
             <p class="text-dark">
@@ -222,9 +242,9 @@
             <footer class="blockquote-footer">Sr. Jaime Polar <cite title="Source Title">Gerente General</cite></footer>
           </blockquote>
         </div>
-        <aside class="col-12 col-md-4 col-lg-6 menu-info">
+        <aside class="col-12 col-md-12 col-lg-6 menu-info">
           <div class="row">
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-md-6 col-lg-6">
               <figure class="img-menu figure menu-show" data-target="#nosotros">
                 <img src="media/60.jpg" class="img-fluid figure-img rounded" alt="menu image">
                 <figcaption class="figure-caption">
@@ -232,7 +252,7 @@
                 </figcaption>
               </figure>
             </div>
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-md-6 col-lg-6">
               <figure class="img-menu figure menu-show" data-target="#visionmision">
                 <img src="media/264.jpg" class="img-fluid figure-img rounded" alt="menu image">
                 <figcaption class="figure-caption">
@@ -240,7 +260,7 @@
                 </figcaption>
               </figure>
             </div>
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-md-6 col-lg-6">
               <figure class="img-menu figure menu-show" data-target="#valores">
                 <img src="media/268.jpg" class="img-fluid figure-img rounded" alt="menu image">
                 <figcaption class="figure-caption">
@@ -248,7 +268,7 @@
                 </figcaption>
               </figure>
             </div>
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-md-6 col-lg-6">
               <figure class="img-menu figure menu-show" data-target="#proyectos">
                 <img src="media/132.jpg" class="img-fluid figure-img rounded" alt="menu image">
                 <figcaption class="figure-caption">
@@ -256,7 +276,7 @@
                 </figcaption>
               </figure>
             </div>
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-md-6 col-lg-6">
               <figure class="img-menu figure menu-show" data-target="#equipo">
                 <img src="media/187.jpg" class="img-fluid figure-img rounded" alt="menu image">
                 <figcaption class="figure-caption">
@@ -264,7 +284,7 @@
                 </figcaption>
               </figure>
             </div>
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-md-6 col-lg-6">
               <figure class="img-menu figure menu-show" data-target="#social">
                 <img src="media/259.jpg" class="img-fluid figure-img rounded" alt="menu image">
                 <figcaption class="figure-caption">
@@ -272,7 +292,7 @@
                 </figcaption>
               </figure>
             </div>
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-md-6 col-lg-6">
               <figure class="img-menu figure menu-show" data-target="#trabaja">
                 <img src="media/121.jpg" class="img-fluid figure-img rounded" alt="menu image">
                 <figcaption class="figure-caption">
@@ -280,7 +300,7 @@
                 </figcaption>
               </figure>
             </div>
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-md-6 col-lg-6">
               <figure class="img-menu figure menu-show" data-target="#blog">
                 <img src="media/282.jpg" class="img-fluid figure-img rounded" alt="menu image">
                 <figcaption class="figure-caption">
@@ -354,7 +374,7 @@
           </div>
         </div>
         <div class="col-12 mb-2">
-          <div class="media-combinate hidden-sm-down">
+          <div class="media-combinate hidden-md-down">
             <figure class="media-combinate-item left">
               <img src="media/315.jpg" class="img-fluid" alt="">
             </figure>
@@ -362,7 +382,7 @@
               <img src="media/320.jpg" class="img-fluid" alt="">
             </figure>
           </div>
-          <ul class="list-media hidden-sm-up">
+          <ul class="list-media hidden-lg-up">
             <li class="list-media-item">
               <img src="media/315.jpg" class="img-fluid" alt="">
             </li>
@@ -385,7 +405,7 @@
             </blockquote>
           </div>
         </div>
-        <div class="col-12 col-md-8 col-lg-6 mt-3">
+        <div class="col-12 col-md-12 col-lg-6 mt-3">
           <div class="media">
             <img src="media/255.jpg" class="img-fluid" alt="">
           </div>
@@ -1183,6 +1203,9 @@
             </li>
             <li class="navfoot-item list-inline-item menu-show" data-target="#blog">
               <a class="navfoot-link" href="#">Blog</a>
+            </li>
+            <li class="navfoot-item list-inline-item" data-toggle="modal" data-target="#automodal">
+              <a class="navfoot-link" href="#">video</a>
             </li>
             <li class="navfoot-item list-inline-item menu-show" data-target="#contacto">
               <a class="navfoot-link" href="#">Contacto</a>
