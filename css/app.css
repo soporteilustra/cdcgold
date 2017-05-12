@@ -93,11 +93,14 @@ body.down header.clone {
 }
 
 .block-info {
-  background: #f9b200;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(left, #f9b200, #FFBE19);
+  /*background: #f9b200;  /* fallback for old browsers */
+  /*background: -webkit-linear-gradient(left, #f9b200, #FFBE19);
   background: -o-linear-gradient(left, #f9b200, #FFBE19);
   background: linear-gradient(to right, #f9b200, #FFBE19);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 3em;
+  /** new style **/
+  background: #fafafa;
+  /*** end new style ***/
 }
 blockquote p {
   text-align: justify;
@@ -106,7 +109,10 @@ blockquote p {
   color: #607D8B;
 }
 blockquote p i {
-  color: #212121;
+  /*color: #212121;*/
+  /** new style **/
+  color: #f9b200;
+  /*** end new style ***/
 }
 blockquote footer {
   color: #212121 !important;
@@ -350,7 +356,7 @@ footer.footer a {
   padding: .5rem 1.5rem .5rem 0rem;
 }
 .textual p {
-  font-size: 1.17rem;
+  font-size: 1rem;
   text-align: justify;
 }
 .list-media {
@@ -423,6 +429,9 @@ footer.footer a {
 .acordion-content .card .card-header {
   background: #D49700;
   color: #fff;
+  /** new style **/
+  background: #f9b200;
+  /*** end new style ***/
   font-family: Arial, sans-serif;
   font-weight: lighter;
   font-size: .85rem;
@@ -508,6 +517,64 @@ ol {
 #automodal .modal-dialog .modal-content {
   margin-top: 6em;
 }
+
+
+/** new style **/
+.blockquote {
+  font-size: 1rem;
+}
+.blockquote > i.fa-quote-left, .blockquote > i.fa-quote-right {
+  color: #f9b200
+}
+.display-4 {
+  font-size: 2rem;
+}
+.list-group-item {
+  transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+}
+.list-group-item:hover {
+  background: rgba(212, 151, 0, 0.35);
+}
+.blogging .blog-item {
+  background: red;
+  padding: 0;
+}
+.blogging .blog-item .card {
+  border-radius: 0px;
+}
+.blogging .blog-item .card .card-img-top {
+  border-radius: 0px;
+}
+.blogging .blog-item .card .card-title {
+  color: #D49700;
+  font-family: 'Open Sans', sans-serif;
+}
+.blogging .blog-item .card .card-subtitle {
+  color: #bdbdbd;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: .9em;
+}
+.blogging .blog-item .card .card-text {
+  color: #626262;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+.blogging .blog-item:nth-child(3n+2) .card {
+  border-left-color: #fff;
+  border-right-color: #fff;
+}
+.blogging .blog-item:last-child .card {
+  border-right-color: rgba(0, 0, 0, 0.125);
+}
+/*** end new style ***/
+
+
+
 @media (max-width: 1025px) {
   blockquote footer cite {
     display: block;
@@ -524,6 +591,11 @@ ol {
   header.clone {
     top: -5px;
   }
+  /** new style **/
+  .block-info {
+    padding: 1em !important;
+  }
+  /*** end new style ***/
 }
 @media (min-width: 576px) {
   .modal-dialog {
